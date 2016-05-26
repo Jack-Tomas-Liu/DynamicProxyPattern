@@ -21,7 +21,7 @@ public class Test {
         proxyTwo.gouwu();
         proxyTwo.guangjie();
 
-
+        //不需要每个都要对应一个单独的代理类，而且每个代理类都有一定量的冗余代码。
 
         System.out.println("=============实现2==========");
         Class c = wangNvShi.getClass();
